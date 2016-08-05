@@ -1,0 +1,9 @@
+{
+    "name": "smi2/php-click-house",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ClickHouseDB\\": "src"
+        }
+    }
+}
