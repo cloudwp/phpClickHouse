@@ -32,7 +32,7 @@ class Settings
      * @param $key
      * @return mixed
      */
-    private function get($key)
+    public function get($key)
     {
         return $this->settings[$key];
     }
@@ -42,7 +42,7 @@ class Settings
      * @param $value
      * @return $this
      */
-    private function set($key,$value)
+    public function set($key,$value)
     {
         $this->settings[$key]=$value;
         return $this;
